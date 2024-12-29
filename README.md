@@ -1,16 +1,7 @@
 This repository contains the code implementation of our paper: SASE: A Searching Architecture for Squeeze and Excitation Operations
---------------------------------------------------------------------------
-Our environment:  
-OS: Ubuntu 20.04.6 LTS (GNU/Linux 5.15.0-88-generic x86_64)  
-GPU: 40GB Tesla A100  
-CPU: Intel(R) Xeon(R) Gold 5218R CPU @ 2.10GHz  
-python: 3.9.2  
-CUDA: v11.3  
-Torch: 1.12.1+cu113  
---------------------------------------------------------------------------
+  
 Codes for SASE searching on CIFAR-10 and training & validation on ImageNet-1k are contained in dir: SASE_search  
 Codes for SASE training & validation on COCO are contained in dir: mmdetection
-
 
 For mmdetection,
 1. Codes for implementation of SASE are located at: mmdetection/mmdet/models/backbones/resnet.py  
